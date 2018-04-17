@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: qkdtp12
-email: qkdtp12@example.com
+email: qkdtp12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: qkdtp12
+twitter_username: qkdt12
 github_username:  qkdtp12
 
 # Build settings
@@ -30,14 +30,14 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-encoding: utf-8
-highlighter: rouge
-highlighter: Pygments
+remote_theme: chesterhow/tale
 
-theme:      tale
+permalink:    /:year-:month-:day/:title
+paginate:     5
 
-permalink:  /:year-:month-:day/:title
-paginate:   5
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
