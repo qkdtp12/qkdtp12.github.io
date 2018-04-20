@@ -13,11 +13,11 @@ GitHub Pages 를 통해서 정적 페이지로 무료 블로그를 만들고 사
 Jekyll 설치하기
 -------------
 
-###준비물
+### 준비물
 
-*Ruby
-*RubyGem
-*Python 2.7(python2.7)
+* Ruby
+* RubyGem
+* Python 2.7(python2.7)
 
 Jekyll은 공식적으로 Windows 운영체제를 지원하지 않지만 실행할 수는 있습니다.
 
