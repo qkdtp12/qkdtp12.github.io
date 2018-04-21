@@ -12,7 +12,7 @@ Jekyll을 설치하면 아래와 같은 화면을 확인할 수 있습니다. �
 
 > Jekyll 설치는 이전 포스트를 참고하세요.{{ site.baseurl }}{% link _posts/2018-04-21-how-to-start-jekyll.md %}
 
-![default them,e]({{site.url}}/assets/tale/jekyll.jpg)
+![default theme]({{site.url}}/assets/tale/jekyll.jpg)
 
 > <https://github.com/chesterhow/tale>
 
@@ -39,7 +39,7 @@ Jekyll을 설치하면 아래와 같은 화면을 확인할 수 있습니다. �
 2. bundle  명령어를 통해서 설치합니다.
 
     ```ruby
-    $bundle
+    $ bundle
     ```
 
 3. `_config.yml`에 아래 명령어를 추가합니다.

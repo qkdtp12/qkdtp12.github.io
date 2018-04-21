@@ -44,16 +44,16 @@ C:\Python27;C:\Python27\Scripts;
     
 ### 3. Gem 명령어를 통해서 Jekyll 를 설치합니다.
 
-```ruby
+```bash
 gem install jekyll
 ```
 
 > 회사와 같은 환경에서 인증서 문제로 https 저장소에 접근이 안되는 경우
  
-```ruby
+```bash
 gem source -r https://rubygems.org/`
 ```
-```ruby
+```bash
 gem source –a http://rubygems.org/
 ```
 
@@ -75,13 +75,13 @@ jekyll serve
 
 wdm을 설치하라고 합니다.wdm을 설치합니다.
 
-```ruby
+```bash
 gem install wdm
 ```
 
 다시 jekyll을 실행합니다.
 
-```ruby
+```bash
 jekyll serve
 ```
 
@@ -93,7 +93,7 @@ jekyll serve
 
 ### 5. Jekyll 사이트를 생성합니다.
 
-```ruby
+```bash
 jekyll new C:\jekyll\blog
 ```
 
@@ -101,7 +101,7 @@ jekyll new C:\jekyll\blog
     
 새로 생성된 프로젝트의 Gemfile을 bundler를 통해서 설치하기 위해서 bundler를 설치합니다.
 
-```ruby
+```bash
 gem install bundler
 ```
 
@@ -117,7 +117,7 @@ bundle
 
 Jekyll을 실행합니다.
 
-```ruby
+```bash
 jekyll serve
 ```
 
