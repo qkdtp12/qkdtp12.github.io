@@ -42,7 +42,7 @@ Jekyll은 공식적으로 Windows 운영체제를 지원하지 않지만 실행�
     
 3. Gem 명령어를 통해서 Jekyll 를 설치합니다.
     
-    {% highlight bash %}
+    {% highlight Bash %}
     gem install jekyll
     {% endhighlight %}
     
@@ -51,7 +51,7 @@ Jekyll은 공식적으로 Windows 운영체제를 지원하지 않지만 실행�
     
     > 회사와 같은 환경에서 인증서 문제로 https 저장소에 접근이 안되는 경우
     
-    {% highlight bash %}
+    {% highlight Bash %}
     gem source -r https://rubygems.org/
     gem source –a http://rubygems.org/
     {% endhighlight %}
