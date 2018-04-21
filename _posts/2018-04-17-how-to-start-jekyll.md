@@ -2,6 +2,7 @@
 layout: post
 title: "How to start Jekyll!"
 date: 2018-04-17 15:01:27 +0900
+comments: true
 categories: jekyll start windows
 ---
 
