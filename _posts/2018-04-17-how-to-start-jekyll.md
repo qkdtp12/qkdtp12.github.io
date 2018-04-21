@@ -22,6 +22,7 @@ Jekyll 설치하기
 Jekyll은 공식적으로 Windows 운영체제를 지원하지 않지만 실행할 수는 있습니다.
 
 1. Ruby를 설치합니다.
+
 > <https://rubyinstaller.org/downloads/>
 
 ![install ruby]({{site.url}}/assets/jekyll/ruby1.png)
@@ -33,9 +34,9 @@ Jekyll은 공식적으로 Windows 운영체제를 지원하지 않지만 실행�
 2. Python을 설치합니다.
 
 > <https://www.python.org/downloads/>
- 
+
 Python2.7을 설치합니다.
- 
+
 > 환경 변수를 추가합니다.
 
 C:\Python27;C:\Python27\Scripts;
@@ -43,17 +44,14 @@ C:\Python27;C:\Python27\Scripts;
 ![python path]({{site.url}}/assets/jekyll/python1.png)
     
 3. Gem 명령어를 통해서 Jekyll 를 설치합니다.
-    
- {% highlight shell %}
- gem install jekyll
- {% endhighlight %}
+
+`gem install jekyll`
 
 > 회사와 같은 환경에서 인증서 문제로 https 저장소에 접근이 안되는 경우
     
-{% highlight shell %}
-gem source -r https://rubygems.org/
-gem source –a http://rubygems.org/
-{% endhighlight %}
+`gem source -r https://rubygems.org/`<br>
+
+`gem source –a http://rubygems.org/`
 
 4. Jekyll을 시작합니다.
 
