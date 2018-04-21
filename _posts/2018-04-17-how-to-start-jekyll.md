@@ -47,9 +47,7 @@ Jekyll은 공식적으로 Windows 운영체제를 지원하지 않지만 실행�
     {% highlight shell %}
     gem install jekyll
     {% endhighlight %}
-        
-    gem install 명령은 꽤 시간이 소요됩니다.
-    
+
     > 회사와 같은 환경에서 인증서 문제로 https 저장소에 접근이 안되는 경우
     
     {% highlight shell %}
