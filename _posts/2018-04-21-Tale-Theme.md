@@ -10,7 +10,7 @@ categories: Install Tale theme
 
 Jekyll을 설치하면 아래와 같은 화면을 확인할 수 있습니다. 저는 마음에 들지 않네요. :)
 
-> Jekyll 설치는 이전 포스트를 참고하세요.{{ site.baseurl }}{% post_url 2018-04-21-how-to-start-jekyll %}
+> Jekyll 설치는 이전 포스트를 참고하세요.{{ site.baseurl }}{% link _posts/2018-04-21-how-to-start-jekyll.md %}
 
 ![default them,e]({{site.url}}/assets/tale/jekyll.jpg)
 
@@ -32,26 +32,26 @@ Jekyll을 설치하면 아래와 같은 화면을 확인할 수 있습니다. �
 
 1. `Gemfile`에 아래 명렁어를 추가합니다.
 
-```ruby
-gem "tale"
-```
+    ```ruby
+    gem "tale"
+    ```
 
 2. bundle  명령어를 통해서 설치합니다.
 
-```ruby
-$bundle
-```
+    ```ruby
+    $bundle
+    ```
 
 3. `_config.yml`에 아래 명령어를 추가합니다.
 
-```yaml
-theme:      tale
+    ```yaml
+    theme:      tale
+    
+    permalink:  /:year-:month-:day/:title
+    paginate:   5
+    ```
 
-permalink:  /:year-:month-:day/:title
-paginate:   5
-```
-
-다른 `theme:` 옵션은 제거합니다.
+    다른 `theme:` 옵션은 제거합니다.
 
 4. `index.md` 를 `index.html`로 변경합니다.
 
@@ -65,31 +65,31 @@ layout: post
 
 1. `Gemfile`에 아래 명렁어를 추가합니다.
 
-```ruby
-gem "jekyll-remote-theme"
-gem "jekyll-paginate"
-```
+    ```ruby
+    gem "jekyll-remote-theme"
+    gem "jekyll-paginate"
+    ```
 
 2. bundle  명령어를 통해서 설치합니다.
 
-```ruby
-$bundle
-```
+    ```ruby
+    $bundle
+    ```
 
 3. `_config.yml`에 아래 명령어를 추가합니다.
 
-```yaml
-remote_theme: chesterhow/tale
+    ```yaml
+    remote_theme: chesterhow/tale
+    
+    permalink:    /:year-:month-:day/:title
+    paginate:     5
+    
+    plugins:
+      - jekyll-paginate
+      - jekyll-remote-theme
+    ```
 
-permalink:    /:year-:month-:day/:title
-paginate:     5
-
-plugins:
-  - jekyll-paginate
-  - jekyll-remote-theme
-```
-
-다른 `theme:` 옵션은 제거합니다.
+    다른 `theme:` 옵션은 제거합니다.
 
 4. `index.md` 를 `index.html`로 변경합니다.
 
